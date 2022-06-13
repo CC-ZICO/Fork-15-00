@@ -25,7 +25,7 @@ ul {
 }
 
 .container {
-    max-width: calc(1264px + 24);
+    max-width: 1288px;
     width: 100%;
     margin: 0 auto;
     padding: 0 12px;
@@ -101,9 +101,93 @@ ul {
 /* nav end Iroda */
 
 /* header start Farrukh */
+.header {
+    padding-top: 65px;
+    padding-bottom: 64px;
+}
 
+.header__box {
+    display: flex;
+    column-gap: 220px;
+}
 
+.header__title {
+    letter-spacing: 0.288px;
+    font-size: 48px;
+    line-height: 62px;
+    color: #000000;
+    max-width: 437px;
+    width: 100%;
+    margin-bottom: 29px;
+    font-family: var(--secondary-font);
+ margin-top: 254px;
+}
 
+.header__btn {
+    padding:1px 48px ;
+}
+.header__liks {
+    display: flex;
+    column-gap: 4px;
+}
+.header__link {
+    color: #46474E;
+    font-size: 13px;
+line-height: 20px;
+margin-top: 23px;
+}
+.header__image {
+    max-width: 676px;
+    width: 100%;
+    max-height: 676px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.header__brand {
+    display: flex;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.05);
+border-radius: 8px; 
+max-width: 371px;
+width: 100%;
+padding: 22px 16px;
+margin: 25px auto 0;
+
+}
+.header__brand-title {
+    color: #000000;
+    margin-left: 8px;
+    margin-right: 4px;
+    font-family: var(--primary-font);
+}
+.header__brand-content-title {
+    font-size: 13px;
+line-height: 14px; 
+font-family: var(--primary-font);
+color:  #131314;
+margin-left: 33px;
+margin-right: 42px;
+position: relative;
+text-align: center;
+}
+.header__brand-content-title::after {
+    content: '';
+   position: absolute;
+border: 1px solid black;
+height: 100%; 
+right: -24px;
+}
+.header__brand-content-title::before {
+    content: '';
+   position: absolute;
+border: 1px solid black;
+height: 100%;
+left: -16px;
+}
+.header__brand-content-x {
+    color: #131314;
+    text-align: center;
+   }
 /* header end Farrukh */
 
 /* info start Abror */
@@ -120,7 +204,69 @@ ul {
 
 /* team start Jasur */
 
+.team {
+    padding: 174px 0 120px;
+}
 
+.team__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.team__title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--secondary-font-font);
+    line-height: 130%;
+    color: #000000;
+    letter-spacing: 0.288px;
+}
+
+.team__txt {
+    font-size: 17px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: #46474E;
+    line-height: 180%;
+    max-width: 705px;
+    width: 100%;
+    text-align: center;
+}
+
+.team__box {
+    display: flex;
+    column-gap: 102px;
+    align-items: center;
+}
+
+.team__card {
+    text-align: center;
+}
+
+.team__card-img {
+    min-width: 124px;
+    max-width: 124px;
+    min-height: 124px;
+    max-height: 124px;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 0px rgba(83, 84, 94, 0.1));
+}
+
+.team__card-txt {
+    font-size: 15px;
+    color: #000000;
+    line-height: 180%;
+    margin-top: 24px;
+}
+
+.team__card-text {
+    font-size: 13px;
+    color: #46474E;
+    line-height: 180%;
+    margin-top: 3px;
+}
 
 /* team end Jasur */
 
