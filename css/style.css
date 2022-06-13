@@ -24,8 +24,7 @@ ul {
     list-style: none;
 }
 
-.container {
-    /* max-width: calc(1264px + 24); */
+.container 
     max-width: 1288px;
     width: 100%;
     margin: 0 auto;
@@ -158,7 +157,69 @@ left: -16px;
 
 /* team start Jasur */
 
+.team {
+    padding: 174px 0 120px;
+}
 
+.team__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.team__title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--secondary-font-font);
+    line-height: 130%;
+    color: #000000;
+    letter-spacing: 0.288px;
+}
+
+.team__txt {
+    font-size: 17px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: #46474E;
+    line-height: 180%;
+    max-width: 705px;
+    width: 100%;
+    text-align: center;
+}
+
+.team__box {
+    display: flex;
+    column-gap: 102px;
+    align-items: center;
+}
+
+.team__card {
+    text-align: center;
+}
+
+.team__card-img {
+    min-width: 124px;
+    max-width: 124px;
+    min-height: 124px;
+    max-height: 124px;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 0px rgba(83, 84, 94, 0.1));
+}
+
+.team__card-txt {
+    font-size: 15px;
+    color: #000000;
+    line-height: 180%;
+    margin-top: 24px;
+}
+
+.team__card-text {
+    font-size: 13px;
+    color: #46474E;
+    line-height: 180%;
+    margin-top: 3px;
+}
 
 /* team end Jasur */
 
