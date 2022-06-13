@@ -25,7 +25,8 @@ ul {
 }
 
 .container {
-    max-width: calc(1264px + 24);
+    /* max-width: calc(1264px + 24); */
+    max-width: 1288px;
     width: 100%;
     margin: 0 auto;
     padding: 0 12px;
@@ -60,6 +61,138 @@ ul {
 /* header end Farrukh */
 
 /* info start Abror */
+
+.info{
+    padding-top: 64px;
+}
+
+.grid__box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.grid__item{
+    /* min-height: 707px; */
+    background: #F3F4F4;
+    border-radius: 8px;
+    padding: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l{
+    grid-row: 1 span;
+    grid-column: 2 span;
+    min-height: 637px;
+    position: relative;
+}
+
+.l__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.216px;
+    max-width: 476px;
+    width: 100%; 
+}
+
+.l .l__img{
+    position: absolute;
+    bottom: 0;
+    max-width: 1057px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.l::after{
+    content: url(../img/svg/book.svg);
+    position: absolute;
+    top: -20px;
+}
+
+.m__box1, .m__box2{
+    grid-row: 1 span;
+    grid-column: 1 span;
+    min-height: 707px;
+    position: relative;
+}
+
+.m__box1::before{
+    content: url(../img/svg/arrow-target.svg);
+    position: absolute;
+    left: -25px;
+    top: -25px;
+}
+
+.m__box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.m__box1 .m__img1{
+    position: absolute;
+    top: 0;
+    max-width: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.m__title1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130% ;
+    text-align: center;
+    letter-spacing: 0.216px;
+    margin-bottom: 17px;
+}
+
+.m__txt1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: center;
+    max-width: 432px;
+    width: 100%;
+}
+
+.m__box2 .m__img2{
+    position: absolute;
+    bottom: 0;
+    max-width: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.m__box2::before{
+    content: url(../img/svg/star.svg);
+    position: absolute;
+    left: -25px;
+    top: -25px;
+}
+
+.m__title2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130% ;
+    text-align: center;
+    letter-spacing: 0.216px;
+    margin-bottom: 17px;
+}
+
+.m__txt2{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 262% ;
+    text-align: center;
+    max-width: 432px;
+    width: 100%;
+}
+
 
 
 
